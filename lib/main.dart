@@ -7,7 +7,7 @@ import 'package:hexcolor/hexcolor.dart';
 import 'package:travel_recommendation/shared/block_observer.dart';
 import 'package:travel_recommendation/shared/network/remote/dio_helper.dart';
 import 'package:travel_recommendation/shared/styles/themes.dart';
-
+import 'package:flutter/widgets.dart';
 import 'layout/TravelApp/cubit/cubit.dart';
 import 'layout/TravelApp/cubit/states.dart';
 import 'modules/Travel_app/on_boarding/on_boarding_screen.dart';
@@ -16,8 +16,7 @@ import 'modules/Travel_app/on_boarding/on_boarding_screen.dart';
 
 void main() async
 {
-  await Firebase.initializeApp();
-  WidgetsFlutterBinding.ensureInitialized();
+
   Bloc.observer = MyBlocObserver();
   DioHelper.init();
   WidgetsFlutterBinding.ensureInitialized();

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "343766071448",
+    "project_id": "travel-recommender-bc0ab",
+    "storage_bucket": "travel-recommender-bc0ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343766071448:android:a1859ad620b9644ee7b8ed",
+        "android_client_info": {
+          "package_name": "com.example_travelrecommendation.travel_recommendation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343766071448-3il055kca4hujlhqh98bo0g6nshl1ho8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example_travelrecommendation.travel_recommendation",
+            "certificate_hash": "24bb5b8e916f4ee771525619313f99974a160b50"
+          }
+        },
+        {
+          "client_id": "343766071448-0lgmt85sr3igi4j2er83nqif78bo5g74.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5EW6cGMhBiqBwwuVJ1u-XJ5y54O3pdCY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343766071448-0lgmt85sr3igi4j2er83nqif78bo5g74.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
